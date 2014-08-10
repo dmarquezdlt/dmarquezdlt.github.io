@@ -1,0 +1,33 @@
+a {
+  text-decoration: none;
+  font-family: sans-serif;
+  color: #000080;
+  font-weight: bold;
+}
+
+h1 {
+  text-align: center;
+  text-decoration: Helvetica,sans-serif;
+}
+
+#hd {
+  font-family: Helvetica, sans-serif;
+  color: black;
+  width: 100%
+  position: fixed;
+  padding: 40px;
+}
+
+#intro {
+  font-family: Helvetica;
+  color: gray;
+  font-weight: lighter;
+  text-align: center;
+  font-style: italic;
+}
+
+#content {
+  color: black;
+  font-family: Helvetica;
+  padding: 100px;
+}
