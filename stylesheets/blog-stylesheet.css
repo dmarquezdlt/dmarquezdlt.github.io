@@ -1,14 +1,19 @@
 a {
   text-decoration: none;
   font-family: sans-serif;
-  color: #000080;
   font-weight: bold;
+  color:gray;
 }
 
-h1 {
+h3 {
+  text-decoration: sans-serif;
+  color:black;
+  font-size: 25px;
+}
+
+#top {
   text-align: center;
-  text-decoration: Helvetica, sans-serif;
-  font-size: 50px;
+  display:block;
 }
 
 #hd {
@@ -16,25 +21,50 @@ h1 {
   color: black;
   width: 100%
   position: fixed;
-  padding: 40px;
 }
 
 #intro {
   font-family: Helvetica;
   color: gray;
   font-weight: lighter;
-  text-align: center;
   font-style: italic;
-  padding: 10px;
 }
 
 #content {
   color: black;
   font-family: Helvetica;
-  padding: 40px;
+  background: white;
+  width:93%;
+  margin-right: 20px;
+  padding-left: 20px;
+  margin-left: 20px;
+  padding-right: 20px;
+  border: 1px dotted lightgray;
 }
 
-#list {
+#list a:hover {
+  color:black;
+}
+
+#navbar {
+  width: 100%
+  display: inline-block;
   text-align: center;
-  width:100%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+#button a{
+  font-weight: bolder;
+  font-color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  display: inline-block;
+  font: Helvetica, sans-serif;
+  background: black;
+  opacity: 0.1;
+}
+
+#button a:hover {
+  opacity: 0.5;
 }
