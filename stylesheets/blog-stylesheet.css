@@ -1,8 +1,15 @@
-a {
+.main td a {
   text-decoration: none;
-  font-family: sans-serif;
-  font-weight: bold;
-  color:gray;
+  font-family: 'Raleway';
+  color:white;
+  font-size: 2.5em;
+}
+
+nav a {
+  text-decoration: none;
+  font-family: 'Raleway';
+  color:white;
+  font-size: 20px;
 }
 
 h3 {
@@ -11,7 +18,7 @@ h3 {
   font-size: 25px;
 }
 
-#top {
+header {
   text-align: center;
   display:block;
 }
@@ -23,48 +30,114 @@ h3 {
   position: fixed;
 }
 
-#intro {
+summary {
   font-family: Helvetica;
   color: gray;
   font-weight: lighter;
   font-style: italic;
 }
 
-#content {
+section {
   color: black;
   font-family: Helvetica;
   background: white;
-  width:93%;
+  width:100%;
   margin-right: 20px;
   padding-left: 20px;
   margin-left: 20px;
   padding-right: 20px;
-  border: 1px dotted lightgray;
+  border: 1px dotted #A8A8A8;
 }
+
+table {
+  text-align: center;
+  width: 100%;
+  padding: 20px;
+}
+
+.main td {
+  width: 30%;
+  height: 300px;
+  background:#A8A8A8;
+  border-radius: 50%;
+  text-align: center;
+  transition: background .5s;
+}
+
+.button td {
+  width: 20%;
+  height: 50px;
+  background:#A8A8A8;
+  text-align: center;
+}
+
+.main td:hover {
+  background: #00D6DD;
+}
+
 
 #list a:hover {
   color:black;
 }
 
-#navbar {
+nav {
   width: 100%
   display: inline-block;
   text-align: center;
+  vertical-align: text-bottom;
   margin-top: 3px;
   margin-bottom: 3px;
 }
 
-#button a{
+.button td {
+  background: black;
+  transition: background .5s;
+}
+
+td .button a{
   font-weight: bolder;
   font-color: white;
   padding-left: 20px;
   padding-right: 20px;
   display: inline-block;
-  font: Helvetica, sans-serif;
-  background: black;
-  opacity: 0.1;
+  font-family: 'Raleway';
 }
 
-#button a:hover {
-  opacity: 0.5;
+.button td:hover {
+  background: #A8A8A8;
 }
+
+table tr td:empty {
+  width:10px;
+  background-color: white;
+}
+
+table tr td:empty:hover {
+  background-color: white;
+}
+
+@font-face {
+  font-family: 'Raleway'
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    font-size: .5em;
+  }
+  img {
+    height: 10em;
+  }
+  td {
+    height: 10em;
+  }
+}
+
+nav {
+  padding: 10px;
+  font-size: 20px;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  color: gray;
+  background: #;
+}
+
