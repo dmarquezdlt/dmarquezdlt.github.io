@@ -1,0 +1,86 @@
+body {
+  background: white;
+}
+
+nav {}
+
+.bar {
+  background: gray;
+  margin: auto;
+}
+table {
+  width: 90%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+tr {
+  margin: auto;
+}
+
+td {
+  width: 100px;
+  height: 30px;
+  color: black;
+  font-family: Helvetica, sans-serif;
+  text-align: center;
+  transition: background .5s;
+}
+
+td:hover {
+  background: #313640;
+  color: white;
+  transition: background .5s;
+}
+
+header {
+  display:block;
+  text-align: center;
+}
+
+img {
+  margin: auto;
+}
+
+div {
+  display: block;
+  color: gray;
+  text-align: center;
+  font-size: 12px;
+  font-style: italic;
+  font-family: Helvetica;
+}
+
+section table td {
+  background: white;
+  color: black;
+  font-size: 40px;
+  width: 150px;
+  height: 150px;
+}
+
+section table td a {
+text-decoration: none;
+  color: black;
+}
+
+article {
+  font-size: 14px;
+  color: #313640;
+  font-family: Helvetica;
+  display: block;
+  width: 75%;
+  margin: auto;
+}
+
+footer
+
+td a {
+  text-decoration: none;
+  color: black;
+}
+
+
+
+
