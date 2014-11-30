@@ -60,6 +60,10 @@ section table td {
   height: 150px;
 }
 
+.first {
+  font-weight: bold;
+}
+
 section table td a {
 text-decoration: none;
   color: black;
