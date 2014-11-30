@@ -1,11 +1,37 @@
-Hell's Kitchen
 
-DBC: Expecting the worst
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> DMDLT: Coding in Progress</title>
+    <link rel="stylesheet" type="text/css" href="../style-sheets/index.css">
+  </head>
+  <body>
+    <header>
+      <a href="../index.html"><img src="../imgs/dmdlt.jpg"/></a>
+    </header>
+    <div id="sub">a collection of my projects and thoughts as I wade through #devbootcamp</div>
+    <br>
+    <main>
+      <h1>Hell's Kitchen</h1>
+      <h3>DBC: Expecting the worst</h3>
+      <h4>21.11.2014</h4>
+      <section>
+        <p>I have a confession. I had previously started Phase 0 but had to defer my start date because of work. I finished the first 5 weeks. Despite my early preview into DBC, my views remain the same. In fact, they have been reinforced.</p>
+        <p>I'm expecting the worst going into DBC--to work long hours, to not understand everything, and even to not get along with everyone. But I also think it will be one of the best growth and learning experience I will ever have. I think I will like the complete immersion environment and the high expetations. Shereef's video definitely addressed some of my concerns.</p>
+        <p>After my first intro session, I called my best friend to tell her how worried I was that I might not be able to do the program and that there had been a mistake in my acceptance because I know so little and was already having bumps in the road on week 1. Going in this second time, I am a little more confident, but my worries are still there. It's good to know that I am not the only person that has felt like that going into this program. I am excited to start and to use my nervousness as a motivator to push myself to do better.</p>
+      </section>
+    </main>
+<br>
+    <p>Return to <a href="blog-index.html">list</a> of blog posts.</p>
+  <footer>
+      <table class="bar">
+        <tr>
+          <td id="twitter"><a href="http://www.twitter.com/dmarquezdlt">twitter</a></td>
+          <td id="email"><a href="mailto:dmarquezdlt@gmail.com">email</a></td>
+          <td id="linkedin"><a href="http://www.linkedin.com/in/dianamarquezdlt">linkedin</a></td>
+          <td id="instagram"><a href="http://www.instagram.com/dmarquezdlt">instagram</a></td>
+        </tr>
+      </table>
+    </footer>
 
-21/11/2014
 
-I have a confession. I had previously started Phase 0 but had to defer my start date because of work. I finished the first 5 weeks. Despite my early preview into DBC, my views remain the same. In fact, they have been reinforced.
-
-I'm expecting the worst going into DBC--to work long hours, to not understand everything, and even to not get along with everyone. But I also think it will be one of the best growth and learning experience I will ever have. I think I will like the complete immersion environment and the high expetations. Shereef's video definitely addressed some of my concerns.
-
-After my first intro session, I called my best friend to tell her how worried I was that I might not be able to do the program and that there had been a mistake in my acceptance because I know so little and was already having bumps in the road on week 1. Going in this second time, I am a little more confident, but my worries are still there. It's good to know that I am not the only person that has felt like that going into this program. I am excited to start and to use my nervousness as a motivator to push myself to do better.
