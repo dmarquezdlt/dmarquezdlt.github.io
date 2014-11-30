@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Margin, Borders, and Padding </title>
+    <link rel="stylesheet" type="text/css" href="../style-sheets/index.css">
+    <link href="http://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+  <header>
+      <a href="../index.html"><img src="../imgs/dmdlt.jpg"/></a>
+    </header>
+    <div id="sub">a collection of my projects and thoughts as I wade through #devbootcamp</div>
+    <br>
+    <main>
+    <h1> Margins, Borders, and Padding </h1>
+    <h3> Let's talk tamales </h3>
+    <h4>29.11.2014</h4>
+    <section>
+    <p>All 3 of these can be added to the top, bottom, left, and right of elements. Below is an explanation of their differences and a few examples using the anology of the MBP (Margin, Border, Padding) tamal.
+    <h3>Margins </h3>
+    <p>Margins are outermost layer of this delicious tamal. It is the corn husk that wraps everything up and keeps it in place. The margins are just blank space that extends past the borders. </p>
+    <h3>Borders</h3>
+    <p>Borders can be thought of as the doughey part of the tamal. The border lies nested inside the margins, and can vary in thickness. You can make a fat ass tamale that's lots of dough or not much else. Or you can make a slim tamale that barely has enough dough surrouding the filling to hold it together. Similarly, you can add a thin or thick border to your element, as well as change the color and style of the lines that form the border.</p>
+    <h3>Padding</h3>
+    <p>Finally, we have the filling, aka, the Padding. The padding lies directly on around your element. This is the inner-most layer of the MBP tamal.</p>
+    <h3>Example</h3>
+    <p> Below is a simple picture of a tamal, (for those of you who have no idea what I'm talking about). Notice the picture is sitting flush to the top and the left of the browser. It has no CSS sytling, yet.
+    <img class="img" src="../imgs/MBP2.png"/>
+    Now, we can use CSS to add our MBP tamal and some space and borders. In the sample below, you can see that there are essentially 3 different way to add MBP. (Note: I've added all 3, but you can also just use one of the properties).
+    <img class="img" src="../imgs/MBP1.png">
+    In the first 2 lines, I have added a margin, (the outer-most layer, or the "corn husk"). In this case, I have selected each side seperately. I am adding 50 pixels of margin at the top, and 25 pixels to the left of the image. YOU DON'T NEED TO ADD IT TO ALL 4 SIDES!...but you can.
+     In the next line, I've added the border. I've defined the width of the border with only one value (20px). This method will add 20px to all 4 sides of the element. I've also defined what kind of line and color I want to the surrounding border to be.
+     Last but not least, on the forth line I have added padding. Notice I have 4 values. Each value corresponds to one side of the element. The values go in a clockwise direction, from top, to right, to bottom, to left. Therefore, my tamal image will have 40px of padding before the border at the top, 30px to the right and so on.
+     Check out the same picture after applying the MBP tamal styling.
+     <img class="img" src="../imgs/MBP3.png"/>
+   </p>
+ </section>
+  </main>
+   <br>
+    <p>Return to <a href="blog-index.html">list</a> of blog posts.</p>
+  <footer>
+    <table class="bar">
+      <tr>
+        <td id="twitter"><a href="http://www.twitter.com/dmarquezdlt">twitter</a></td>
+        <td id="email"><a href="mailto:dmarquezdlt@gmail.com">email</a></td>
+        <td id="linkedin"><a href="http://www.linkedin.com/in/dianamarquezdlt">linkedin</a></td>
+        <td id="instagram"><a href="http://www.instagram.com/dmarquezdlt">instagram</a></td>
+      </tr>
+    </table>
+  </footer>
+  </body>
+</html>
