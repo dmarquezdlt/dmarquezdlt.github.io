@@ -1,5 +1,6 @@
 
 <!DOCTYPE html>
+
 <html>
   <head>
     <title> DMDLT: Coding in Progress</title>
@@ -26,14 +27,14 @@
     <br>
     <p>Return to <a href="blog-index.html">list</a> of blog posts.</p>
   <footer>
-      <table class="bar">
-        <tr>
-          <td id="twitter"><a href="http://www.twitter.com/dmarquezdlt">twitter</a></td>
-          <td id="email"><a href="mailto:dmarquezdlt@gmail.com">email</a></td>
-          <td id="linkedin"><a href="http://www.linkedin.com/in/dianamarquezdlt">linkedin</a></td>
-          <td id="instagram"><a href="http://www.instagram.com/dmarquezdlt">instagram</a></td>
-        </tr>
-      </table>
-    </footer>
+    <table class="bar">
+      <tr>
+        <td id="twitter"><a href="http://www.twitter.com/dmarquezdlt">twitter</a></td>
+        <td id="email"><a href="mailto:dmarquezdlt@gmail.com">email</a></td>
+        <td id="linkedin"><a href="http://www.linkedin.com/in/dianamarquezdlt">linkedin</a></td>
+        <td id="instagram"><a href="http://www.instagram.com/dmarquezdlt">instagram</a></td>
+      </tr>
+    </table>
+  </footer>
   </body>
 </html>
