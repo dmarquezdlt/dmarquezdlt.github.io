@@ -18,9 +18,9 @@
       <section>
       <p> Not hashbrowns, not #hashtags, not hashish. I mean <a href="http://ruby-doc.org/core-2.1.2/Hash.html">hashes</a> in Ruby. Hashes are about storing data. Hashes are similair to a table of contents, like the one below.<br>
     <center><img src="../imgs/table.jpg"/></center><br>
-    Except, instead of a subject tied to page number, hashes pair a key with a value. You can later manipulate this data by applying methods to the hash.
+    Except, instead of a <b>subject</b> tied to <b>page number</b>, hashes pair a <b>key</b> with a <b>value</b>. You can later manipulate this data by applying methods to the hash.
     For example, we can use a hash to keep track of how well your favorite basketball players are doing year in terms of points. We are going to create a hash (points2015) that stores the average points per game for basketball players.<br><center><img src="../imgs/points2015.jpg" /></center><br>
-    Each player is a key. The Average Points/Games are the value. Now we can use Ruby to extract the information we want from this data. Let's say I want to know who the top scorer is. I would create a function (best_player) that uses the points values to return the name of the top scorer. <br><br><center><img src="../imgs/bestplayer.jpg" /></center><br><br>
+    Each player is a <b>key</b>. The Average Points/Games are the <b>value</b>. Now we can use Ruby to extract the information we want from this data. Let's say I want to know who the top scorer is. I would create a function (best_player) that uses the points values to return the name of the top scorer. <br><br><center><img src="../imgs/bestplayer.jpg" /></center><br><br>
     In this method, we are asking the method (best_player) to use the array (points2015). We are asking the method to put (aka: display) a key value (name of a player) according to the conditions in the parenthesis. Inside the paranthesis, we are taking the values for the array, sorting them in ascending order, then reversing that order, so the highest number will be on top. <br> <br> <center> <img src="../imgs/callmethod.jpg"/></center><br><br>
     Finally, we are asking to take the first value in the newly ordered list, and display the key.<br><br><center><img src="../imgs/Kobe.jpg" /></center><br>
     <br> That is correct! If you go back and look at the original, Kobe has the most points, with 26.6 points/game average.
@@ -28,11 +28,12 @@
   </p>
   <p>
     On the other hand, if you simply want to store a set of data points, with nothing attached to it, you can use an array. An array lets you store a bunch of strings and/or integers together as a single unit.
-    If you want to store a list of the different produce your mom's store sells you could use an array. Or let's say you're an educator and you want to see how well you class is doing on test scores, but you are not worried about seeing which students in particular are doing well. You can store all your students' scores in one array:<br> <br> <center> <img src="../imgs/scores.jpg"/></center><br><br>
+    If you want to store a list of the different produce your mom's store sells, use an array. If you want to store a list of different produce your mom's store sells as well as the price for each product, use a hash.
+    Let's say you're an educator and you want to see how well your class is doing on test scores, but you are not worried about seeing which students in particular are doing well. You can store all your students' scores in one array:<br> <br> <center> <img src="../imgs/scores.jpg"/></center><br><br>
     Next, you can create a method that add up all the scores to give you the sum and then divides that sum by the number of elements in your array, giving you the average score in your class. <br> <br> <center> <img src="../imgs/avg.jpg"/></center><br><br>
-    Next, you can call that method and put in your stored array of student s as the array parameter so it does all that math to your scores. <br> <br> <center> <img src="../imgs/studmethod.jpg"/></center><br><br>
-    And your class average is: <br> <br> <center> <img src="../imgs/80.jpg"/></center><br><br>
-    80. Eh. They can do better. You should give them a little more homework or give them detention.
+    Next, you can call that method and use the stored array of student scores as the array parameter. This does all the math you need to your scores. <br> <br> <center> <img src="../imgs/studmethod.jpg"/></center><br><br>
+    And your class's average is: <br> <br> <center> <img src="../imgs/80.jpg"/></center><br><br>
+    80. B-. Eh. They can do better. You should give them a little more homework or give them detention.
     Again, like in my hash example, it makes more sense to do these manually than to take time to code all these. But imagine when you have to have to do these processes for every college basketball player in the US, or the grades of all 3rd graders in the Los Angeles School District. You are not going to want to do it by hand, and Ruby is a simple way to store data (either in a hash or an array) and manipulate it multiple times to find what you need.
    </p>
       </section>
