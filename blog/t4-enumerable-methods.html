@@ -11,15 +11,36 @@
     <div id="sub">a collection of my projects and thoughts as I wade through #devbootcamp</div>
     <br>
     <main>
-      <h1>Title</h1>
-      <h2>Sub Title</h2>
+      <h1>Enumerable#Map</h1>
+      <h2>Ruby's way of changing collections</h2>
       <h4>14.12.2014</h4>
       <section>
-        <p></p>
-        <p></p>
-        <p></p>
-        <p></p>
-        <p></p>
+        <p>First off, <code>Enumerable</code> is module in Ruby that works for collections of things. That mean you cannot apply any of its methods to single things, (like a string, or a number). You use enumerable methods to collections of data, like hashes or arrays.</p>
+        <p>There is a long list of <code>Enumerable</code> methods, such as: each, drop, find, grep, and reject. Today, however, I want to focus on <code> map</code>, as I conside it to be one of the most important and basic enumerable methods.</p>
+        <p>Map Basics
+          <ol>
+            <li>Map loops through an objects elements and applies a change, specified by a block of code. </li>
+            <li>Map will always return an array.</li>
+            <li>Map will return in the original length.</li>
+          </ol>
+          </p>
+        <p>For example, let us pretend you are sending out a bunch of emails to the parents of your failing students to warn them that their children are not doing well. You have a list, (in an array of course, of all the students last names. <br><br>
+          <code>
+            >> failing_names = ["johnson", "SMITH", "Rodriguez", "LEE", "Bell", "lopez", "kim"]</code>
+            <br>
+            <br>
+            If you are auto inserting their last names into an email, you'll be looking unprofessional if you insert the names as they are: some in all caps or all lowercase. For this, you can use the enumerable method <code>map</code> to loop thorugh them and make them all one format.
+            Simple use the <code>capitalize</code> method on each name.
+            <br><br>
+            <code>
+              >> failing_names.map {|last_name| last_name.capitalize} <br>
+              => ["Johnson", "Smith", "Rodriguez", "Lee", "Bell", "Lopez", "Kim"]
+            </code>
+            <br>
+            <br>
+            Ta-da! Your names are all in proper format. So what did you do? You called map on the array (<code>failing_names.map</code>). In the block following, (everything inside the {}), you asked the code to takee each item in the array, (<code>last_name</code>), and capitalize it. Since <code>map</code> always returns an array, you now have a new array with each last name capilatized!
+          </p>
+        <p>NOTE: In order to permanently save these changes you must use the desturctive <code>map!</code> method or push the results into a new array. Otherwise, next time you call the array, it will go back to the original, unformatted version.</p>
       </section>
     </main>
     <br>
