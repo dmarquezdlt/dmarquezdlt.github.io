@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> DMDLT: Coding in Progress</title>
+    <link rel="stylensheet" type="text/css" href="../style-sheets/index.css">
+  </head>
+  <body>
+    <header>
+      <a href="../index.html"><img src="../imgs/dmdlt.jpg"/></a>
+    </header>
+    <div id="sub">a collection of my projects and thoughts as I wade through #devbootcamp</div>
+    <br>
+    <main>
+      <h1>Block/Proc/Lambda</h1>
+      <h2>Recycle, Reduce and Re-use Code</h2>
+      <h4>11.01.2015</h4>
+      <section>
+        <p>Blocks, Procs, and Lambdas are a type of code that act upon an object in Ruby.</p>
+        <p><b>Blocks</b> are very general. You can call a block of code on an object. Blocks are usually recongnizable by their <code>do...end</code> syntax or <code> {...} </code>. That means that anything within that structure will be ran to the object it is called upon.
+        For example, let's take an array of numbers, <code>[3,10,5,6,8]</code> and call the <code>each</code> method to it so it will run our block of code on each element of the array. </p><br>
+        <code>[3,10,5,6,8].each do<br>
+        <tab>#code goes here<br>
+          end</code>
+          <br>
+        <p>So now, we have created the skeleton for whatever code we want to run on each number in the array. The <code>block</code> part is whatever we put inside the <code>do</code> and <code>end</code>. Let's square each number!</p>
+        <br>
+        <code>[3,10,5,6,8].each do |x|<br>
+         puts x*2<br>
+          end</code>
+          <br>
+        <p>The result for this will be:</p>
+        <br>
+        <code>
+          9<br>
+          100<br>
+          25<br>
+          36<br>
+          64<br>
+        </code>
+          <br>
+          <p> The block literally took the square of each number and put it on a line.</p>
+          <p><b>Procs</b> is short for procedure! With <code>Proc</code> you can set a block of code to a variable and reuse that block of code whenever you want. <code>Proc</code> is a class, so to create a new instance of <code>Proc</code>, you call it with typical class notation</p>
+          <p><code>variable_name = Proc.new{#code goes here}</code></p>
+          <p>Now, we can put whatever block of code we want to repeat inside the brackets and then apply that code to objects. Let's make a block of code that prints everything out with a smiley face at the end.</p>
+          <p> <code>
+            smiles = Proc.new {|x| puts "-" + x + ":)" }
+          </code></p>
+          <p>We've names the block of code <code>smiles</code>. Now we can simply use that name in place of the block of code. There are a <a href="http://ruby-doc.org/core-2.2.0/Proc.html">few different ways</a> to use Proc and call the new procedures, but for this case, we will call it an an array. NOTE: place a & before the Proc name to call the block.</p>
+          <p><code>
+            words = ["I'm","walking","on","sunshine"]<br>
+            words.each(&smiles)</code></p>
+            The result?<br><br>
+            <code>
+            -I'm :) <br>
+            -walking :) <br>
+            -on :) <br>
+            -sunshine :) <br>
+            </code>
+          <p>Now we've packaged that block and can use it over and over by using &smiley!</p>
+          <p>Finally, <b>Lambda</b> is a very specific type of Proc. They basically do the same thing, but lambdas are picky about the # of arguements passed to it and lambda gives more control the calling method than proc. You don't need <code>.new</code> to create a lambda. Let's create a lambda that converts numbers to strings.
+            <p><code>
+            numbers = [1,4,5,7,9]<br>
+            conversion = lambda { |x| x.to_s}<br>
+            numbers.collect!(&conversion)<br>
+            >>["1", "4", "5", "7", "9"]<br>
+          </code></p>
+          <p>This returned a new array with the numbers as strings. Notice we use the same & symbol to call lambdas as we do to call procs.
+          <p>
+          </p>
+
+
+
+
+          </code></p>
+          <p></p>
+          <p></p>
+
+      </section>
+    </main>
+    <br>
+    <p>Return to <a href="blog-index.html">list</a> of blog posts.</p>
+  <footer>
+    <table class="bar">
+      <tr>
+        <td id="twitter"><a href="http://www.twitter.com/dmarquezdlt">twitter</a></td>
+        <td id="email"><a href="mailto:dmarquezdlt@gmail.com">email</a></td>
+        <td id="linkedin"><a href="http://www.linkedin.com/in/dianamarquezdlt">linkedin</a></td>
+        <td id="instagram"><a href="http://www.instagram.com/dmarquezdlt">instagram</a></td>
+      </tr>
+    </table>
+  </footer>
+  </body>
+</html>
+
+
+
