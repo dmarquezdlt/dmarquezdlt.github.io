@@ -16,8 +16,49 @@
       <h2>Loop-di-loops</h2>
       <h4>12.01.2015</h4>
       <section>
-        <p>
+        <p>I have to admit, I'm a little biased. I think Ruby is a much more intuitive, forgiving, clear, and simple language than JavaScript. With that said, I know they each serve their purposes and each have their own advantages.
         </p>
+        <p>Just to give a quick demonstration of why I like Ruby better, I'm going to compare how to create loops with each language. Maybe then you'll also be <b>#teamRuby</b>.
+        </p>
+        <p> I am going to create a simple loop with both languages that achieve the same result. We're going to push all multiples of 5, (up to 200), into an array.
+        </p>
+        <p> Let's start with JavaScript. </p>
+        <p><code>
+          var multiple = 5;<br>
+          var array_of_5s = [];<br>
+          while (multiple <= 200) {<br>
+              array_of_5s.push(multiple);<br>
+              multiple += 5;<br>
+        }<br>
+        </code></p>
+        <p>
+          In order to start we need to create 2 variables: multiple=>(to store the number we're looking for multiples of) and array_of_5s=>(an array to store all the multiples). To create variables in JS, we need to add <code>var</code> before the variable name. Notice we also have to end each line of code with a semi-colon. To create the actual loop, we have to start a while loop, saying to keep looping until the multiple is less than or equal to 200. Then, we push the multiple into the array and add 5 to the variable <code> multiple </code> until we reach 200.
+        </p>
+        <p>
+          Not too bad right? Now, let's do it with Ruby.
+        </p>
+        <p><code>
+          multiple = 5<br>
+          array_of_5s = []<br>
+          array_of_5s.push(multiple+=5) while multiple <=200<br>
+        </code></p>
+        <p>
+          That's it! We created the same 2 variable without needing to preface them with <code>var</code> or needing to end each line with a ;. Because Ruby is more forgiving we were able to put all the code onto 1 line, because of flexible syntax structure. With Ruby, we could have also written it like this:
+        </p>
+        <p><code>
+          multiple = 5<br>
+          array_of_5s = []<br>
+          while multiple <= 200 {<br>
+              array_of_5s.push(multiple);<br>
+              multiple += 5<br>
+        end<br>
+        </code></p>
+        <p>
+          The code above looks almost idenitcal to the JS block, with less formatting. And that's why I like Ruby better. JS follows a more strict structure, (and, trust me, I can see how that can be beneficial). However, I prefer the free flow and liberty of Ruby. The result of all 3 blocks of code would be:
+        </p>
+        <p><code>
+         array_of_5s = [10, 15, 20, 25, 30, 35, 40, 45, 50, 55, 60, 65, 70, 75, 80, 85, 90, 95, 100, 105, 110, 115, 120, 125, 130, 135, 140, 145, 150, 155, 160, 165, 170, 175, 180, 185, 190, 195, 200, 205]
+       </code></p>
       </section>
     </main>
     <br>
