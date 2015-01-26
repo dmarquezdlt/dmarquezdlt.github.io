@@ -1,0 +1,135 @@
+
+<!--
+Write your names here:
+1. Diana Marquez
+2. Elizabeth Fu
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" type="text/css" href="../style-sheets/cheat-sheet.css">
+    <title>Ruby Basics Cheat Sheet</title>
+
+  </head>
+  <body>
+
+    <h1>Ruby Basics</h1>
+
+    <nav>
+      <a href="#header">Home</a>
+      <a href="#strings">Strings</a>
+      <a href="#operators">Operators</a>
+      <a href="#data_structures">Data Structures</a>
+      <a href="#classes">Classes</a>
+      <a href="#reserved_words">Reserved Words</a>
+    </nav>
+
+    <div id="strings">
+      <h3>Strings</h3>
+        <p>
+          <ul>
+            <li>"bootcamp".capitalize = "Bootcamp"</li>
+            <li>"bootcamp".upcase = "BOOTCAMP"</li>
+            <li>"BOOTCAMP".downcase = "bootcamp"</li>
+            <li>"bootcamp".length = 8</li>
+            <li>"bootcamp".include(o) = true</li>
+            <li>"bootcamp".to_sym = :bootcamp</li>
+            <li>"bootcamp".center(10) = "     bootcamp     "</li>
+            <li>"bootcamp".delete "tc" = "booamp"</li>
+            <li>"bootcamp".insert(0, "dev") = "devbootcamp"</li>
+          </ul>
+        </p>
+    </div>
+
+    <div id="operators">
+      <h3>Operators</h3>
+        <p>
+          <ul>
+            <li> + => 5 + 7 = 12 </li>
+            <li> - => 5 - 7 = -2 </li>
+            <li> * => 5 * 7 = 35 </li>
+            <li> / => 12 / 4 = 3 </li>
+            <li> % => 12 % 4 = 0 </li>
+            <li> ** => 2 ** 3 = 8 </li>
+            <li> += => x = 0; x += 2; x = 2 => x = 4 </li>
+            <li> > => 5 > 7 = false </li>
+            <li> < => 5 < 7 = true </li>
+            <li> >= => 5 >= 7 = false </li>
+            <li> <= => 5 <= 7 = true </li>
+            <li> == => 5 == 7 = false </li>
+            <li> != => 5 != 7 = true </li>
+            <li> && => 5 == 5 && 7 == 7 => true </li>
+            <li> || => 5 == 5 || 7 == 7 => true </li>
+          </ul>
+        </p>
+    </div>
+
+    <div id="data_structures">
+      <h3>Data Structures</h3>
+        <p>
+          <h4>Array</h4>
+          <ul>
+            <li>Array.new => Create a new array</li>
+            <li>numbers = Array.new([2, 0, 1, 5])</li>
+            <li>numbers.size = 4</li>
+            <li>numbers.length = 4</li>
+            <li>numbers[0] => 2 </li>
+            <li>numbers.first => 2 </li>
+            <li>numbers.last => 5 </li>
+            <li>numbers.pop = 5 (new array [2, 0, 1]) </li>
+            <li>numbers.push(6) = new array [2, 0, 1, 6] </li>
+            <li>numbers.join = "2016" </li>
+            <li>numbers.each = do |i| (function); end (each loops through each element)</li>
+            <li>numbers.map = creates a new array, does not destroy the original</li>
+            <li>numbers.map! = destroys original array</li>
+          </ul>
+
+        <h4>Hashes</h4>
+          <ul>
+            <li>{key => value} = creates a new hash</li>
+            <li>pet_names = {:cat => "Toby"}</li>
+          </ul>
+        </p>
+    </div>
+
+    <div id="classes">
+      <h3>Classes</h3>
+        <p>
+          <ul>
+            <li>class Dog...end = creates a new class called Dog</li>
+            <li>def initialize...end = object initialization</li>
+            <li>@name = name => creates an instance variable available throughout the class</li>
+            <li>@@name = class variable</li>
+            <li>$name => global variable</li>
+            <li>(*arguments) = allows for a variable number of arguments</li>
+            <li>self = calls the object itself</li>
+            <li>attr_reader: , attr_writer: , attr_accessor: variable => allows access to variables within a class</li>
+          </ul>
+        </p>
+    </div>
+
+    <div id="reserved_words">
+      <h3>Reserved Words</h3>
+        <p>
+          <ul>
+            <li>def = definition</li>
+            <li>true = boolean</li>
+            <li>false = boolean</li>
+            <li>end = ends methods</li>
+            <li>if = if/else statement</li>
+            <li>elsif = if/else statement</li>
+            <li>else = if/else statement</li>
+            <li>for = starts for loops</li>
+            <li>class = creates a new class</li>
+            <li>return = prints content to the console</li>
+            <li>case = case loops</li>
+            <li>when = case loops</li>
+            <li>then = case loops</li>
+            <li>self = self-calling variable</li>
+          </ul>
+        </p>
+    </div>
+
+  </body>
+</html>
