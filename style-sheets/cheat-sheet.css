@@ -1,0 +1,41 @@
+body {
+  background-color: #99ccff;
+}
+
+h1{
+  color: #000066;
+  font-family: Arial Black, sans-serif;
+  font-size: 65px;
+}
+
+nav {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  width: 600px;
+}
+
+a {
+  text-decoration: none;
+  padding: 10px;
+  font-family: sans-serif;
+  color: #000066;
+}
+
+div {
+  margin: 20px;
+}
+
+h3 {
+  font-family: sans-serif;
+}
+
+h4 {
+  font-family: sans-serif;
+}
+
+
+li{
+  padding: 4px;
+}
+
+
