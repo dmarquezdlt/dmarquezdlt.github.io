@@ -8,31 +8,6 @@ nav {}
   background: gray;
   margin: auto;
 }
-table {
-  width: 90%;
-  margin-top: 30px;
-  margin-bottom: 30px;
-  margin-left: auto;
-  margin-right: auto;
-}
-tr {
-  margin: auto;
-}
-
-td {
-  width: 100px;
-  height: 30px;
-  color: black;
-  font-family: Helvetica, sans-serif;
-  text-align: center;
-  transition: background .5s;
-}
-
-td:hover {
-  background: #313640;
-  color: white;
-  transition: background .5s;
-}
 
 header {
   display:block;

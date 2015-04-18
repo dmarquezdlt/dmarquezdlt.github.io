@@ -1,39 +1,180 @@
 
 <!DOCTYPE html>
 <html>
-  <head>
-    <title> DMDLT: Coding in Progress</title>
-    <link rel="stylesheet" type="text/css" href="style-sheets/index.css">
-  </head>
-  <body>
-    <header>
-      <a href="index.html"><img src="imgs/dmdlt.jpg"/></a>
-    </header>
-    <div id="sub">a collection of my thoughts and projects as I wade through #devbootcamp</div>
-    <br>
-    <section>
-      <table id="main">
-        <tr>
-          <td><a href="blog/blog-index.html">blogs</a></td>
-          <td><a href="projects/project-index.html">projects</a></td>
-        </tr>
-      </table>
-    </section>
-    <footer>
-      <table class="bar">
-        <tr>
-          <td id="twitter"><a href="http://www.twitter.com/dmarquezdlt">twitter</a></td>
-          <td id="email"><a href="mailto:dmarquezdlt@gmail.com">email</a></td>
-          <td id="linkedin"><a href="http://www.linkedin.com/in/dianamarquezdlt">linkedin</a></td>
-          <td id="instagram"><a href="http://www.instagram.com/dmarquezdlt">instagram</a></td>
-        </tr>
-      </table>
-    </footer>
-    <article>
-      <h3>about.me</h3>
-      <p>Hi! My name is Diana Marquez-De La Torre. I am a California native and have been working in politics for the past 3 years. I am now an aspiring programmer at Dev Bootcamp interested in entering the EduTech field and incorporating technology into reforming the California public education system. </p>
-    <p> Feel free to follow my progress and offer feedback through any of my social media channels posted above.</p>
-    </article>
+<head>
+  <title> DMDLT: Full Stack Web Development</title>
+  <link rel="stylesheet" type="text/css" href="style-sheets/index.css">
+  <meta charset="utf-8">
+  <meta name="format-detection" content="telephone=no">
+  <link rel="icon" href="favicon.ico">
+  <link rel="shortcut icon" href="favicon.ico">
+  <link rel="stylesheet" href="css/stuck.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/ihover.css">
+  <link href='http://fonts.googleapis.com/css?family=Raleway:300' rel='stylesheet' type='text/css'>
+  <script src="js/jquery.js"></script>
+  <script src="js/jquery-migrate-1.1.1.js"></script>
+  <script src="js/script.js"></script>
+  <script src="js/superfish.js"></script>
+  <script src="js/jquery.equalheights.js"></script>
+  <script src="js/jquery.mobilemenu.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/tmStickUp.js"></script>
+  <script src="js/jquery.ui.totop.js"></script>
+  <script>
+  $(document).ready(function(){
+    $().UItoTop({ easingType: 'easeOutQuart' });
+    $('#stuck_container').tmStickUp({});
+  });
+  </script>
+</head>
+<body class="page1" id="top">
 
-  </body>
+  <header>
+    <section class="black" id="stuck_container">
+      <div class="container">
+        <div class="row black">
+          <h1>
+           <a href="index.html">
+            <img src="imgs/dmdlt.jpg" height="100"/>
+          </a>
+        </h1>
+        <div class="navigation">
+          <nav>
+            <ul class="sf-menu">
+             <li class="nav-link"><a href="#about">about</a></li>
+             <li class="nav-link"><a href="#portfolio">portfolio</a></li>
+             <li class="nav-link"><a href="#blog" class="nav-link">blog</a></li>
+             <li class="nav-link"><a href="#footer" class="nav-link">contact</a></li>
+           </ul>
+         </nav>
+       </div>
+     </div>
+   </div>
+ </section>
+</header>
+
+
+<section class="content" id="about">
+  <div class="container">
+    <div class="row" >
+      <div class="ta__center">
+        <h3>Diana: Web Developer</h3>
+        <div class="grid_1">
+        </div>
+        <div class="grid_4">
+          <h4>about me</h4>
+          <ul>
+            <li>Full Stack Web Developer</li>
+            <li>Project Manager</li>
+            <li>Stanford '11, Communication</li>
+          </ul>
+        </div>
+        <div class="grid_3">
+        </div>
+
+        <div class="grid_4">
+         <h4>skills</h4>
+         <ul>
+          <li>Ruby</li>
+          <li>Sinatra</li>
+          <li>Javascript</li>
+          <li>HTML5</li>
+          <li>CSS3</li>
+          <li>Rails</li>
+          <li>jQuery</li>
+          <li>Git</li>
+          <li>Heroku</li>
+        </ul>
+      </div>
+      <div class="grid_1">
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+
+<section class="content" id="portfolio">
+  <div class="container black">
+    <h3 class="white">Portfolio</h3>
+    <div class="flextainer">
+
+
+
+          <div class="ih-item circle effect2 left_to_right"><a href="#">
+            <div class="img"><img src="imgs/PMO2.png" alt="img"></div>
+            <div class="info">
+              <h3>Pour Me One</h3>
+              <p>Sinatra | </p>
+            </div></a>
+          </div>
+
+
+
+          <div class="ih-item circle effect2 left_to_right"><a href="#">
+            <div class="img"><img src="imgs/VM.png" alt="img"></div>
+            <div class="info">
+              <h3>Volunteer.me</h3>
+              <p>learn more</p>
+            </div></a>
+          </div>
+
+
+
+          <div class="ih-item circle effect2 left_to_right"><a href="#">
+            <div class="img"><img src="imgs/battleship.jpg" alt="img"></div>
+            <div class="info">
+              <h3>Battleship</h3>
+              <p>learn more</p>
+            </div></a>
+          </div>
+
+
+
+          <div class="ih-item circle effect2 left_to_right"><a href="#">
+            <div class="img"><img src="imgs/QQ.png" alt="img"></div>
+            <div class="info">
+              <h3>Quick Question</h3>
+              <p>learn more</p>
+            </div></a>
+          </div>
+
+
+    </div>
+  </div>
+  <p></p>
+</section>
+
+<section class="content" id="blog">
+  <div class="container">
+    <div class="row" >
+      <div class="ta__center">
+        <h3>Blog</h3>
+        <div class="about">
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer id="footer">
+  <div class="container black">
+    <div class="row">
+      <div class="ta__center">
+        <h3 class="white">Contact Me</h3>
+        <div class="socials">
+          <a href="http://www.twitter.com/dmarquezdlt" class="fa fa-twitter"></a>
+          <a href="mailto:dmarquezdlt@gmail.com" class="fa fa-envelope-o"></a>
+          <a href="http://www.github.com/dmarquezdlt" class="fa fa-github"></a>
+          <a href="http://www.linkedin.com/in/dmarquezdlt" class="fa fa-linkedin-square"></a>
+          <a href="http://www.instagram.com/dmarquezdlt" class="fa fa-instagram"></a>
+          <p></p>
+          <p>Diana Marquez | 2015</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+</body>
 </html>
