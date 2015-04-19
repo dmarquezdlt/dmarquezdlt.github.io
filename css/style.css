@@ -23,6 +23,11 @@ a[href^="tel:"] {
     display: flex;
 }
 
+.about_me{
+    font-size: 1.6em;
+    margin: 1%;
+}
+
 body {
     position: relative;
     background-color: #fff;
@@ -208,6 +213,10 @@ ul {
 
 .rate li+li+li+li .scale {
     width: 11%;
+}
+
+.skills {
+    height: 75px;
 }
 /****Links****/
 
